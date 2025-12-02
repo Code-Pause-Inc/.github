@@ -38,12 +38,13 @@ At Code Pause Inc., we believe that effective crisis intervention requires:
 
 ## 🛠️ Technology Stack
 
-We build with modern, scalable technologies:
+We build with modern, performant technologies:
 
-- **Backend**: Node.js, TypeScript, PostgreSQL
-- **Frontend**: React, Next.js
+- **Runtime**: Bun
+- **Backend**: Hono, Drizzle ORM, Zod
+- **Frontend**: React 19
+- **Database**: PostgreSQL
 - **Infrastructure**: Serverless architecture, HIPAA-compliant cloud services
-- **Standards**: HL7 FHIR, healthcare interoperability protocols
 
 ## 👥 Leadership
 
@@ -62,7 +63,7 @@ With 25 years of hands-on experience as an EMT and first responder, Jeremy bring
 
 ## 🚀 Current Status
 
-Code Pause Inc. is actively developing our platform with a targeted 2025 launch. We're currently:
+Code Pause Inc. is actively developing our platform with a targeted 2026 launch. We're currently:
 
 - ✅ Building core platform infrastructure
 - ✅ Establishing healthcare compliance frameworks
@@ -97,3 +98,4 @@ Interested in learning more about Code Pause Inc.?
 © 2025 Code Pause Inc. All rights reserved.
 
 </div>
+
