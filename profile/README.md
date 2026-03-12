@@ -95,7 +95,7 @@ Interested in learning more about Code Pause Inc.?
 
 **Code Pause Inc.** — Pause. Breathe. Connect.
 
-© 2025 Code Pause Inc. All rights reserved.
+© 2026 Code Pause Inc. All rights reserved.
 
 </div>
 
