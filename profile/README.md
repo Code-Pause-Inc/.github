@@ -9,6 +9,7 @@
 [![Website](https://img.shields.io/badge/codepause.com-1F2937?style=for-the-badge)](https://codepause.com)
 [![OutsideINsights](https://img.shields.io/badge/OutsideINsights-0E7C86?style=for-the-badge)](https://outsideinsights.health)
 [![Voxi.Live](https://img.shields.io/badge/Voxi.Live-173BFF?style=for-the-badge)](https://voxi.live)
+[![QuackXide](https://img.shields.io/badge/QuackXide-open_source-4B5563?style=for-the-badge)](https://github.com/Code-Pause-Inc/QuackXide)
 [![Press](https://img.shields.io/badge/Press-Newsroom-B45309?style=for-the-badge)](https://codepause.com/press/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/codepause)
 
@@ -17,6 +18,12 @@
 ---
 
 ## Latest news
+
+**September 30, 2026 — [QuackXide v0.1.0: open-source secure data processing](https://github.com/Code-Pause-Inc/QuackXide/releases/tag/v0.1.0)**
+
+Code Pause, Inc. has released **[QuackXide](https://github.com/Code-Pause-Inc/QuackXide)** as open source under the MIT and Apache-2.0 licenses. QuackXide is a secure database and data-processing system for sensitive and protected data: it is encrypted on the way in, at rest, and on the way out; plaintext exists only in attested enclave memory; and every query passes a disclosure gate that returns aggregates, never rows. *Data goes in. Analysis comes out. The dataset doesn't.*
+
+Development continues with the **USF core contribution team** from the University of San Francisco: Jake Abendroth, William Shenker, Angelina Tam, and Gabriel Zubovsky. Release binaries carry signed build provenance, verifiable with `gh attestation verify`.
 
 **September 8, 2026 — [Code Pause, Inc. Advances Real-Time Communications with Voxi.live and Telehealth over QUIC](https://codepause.com/press/voxi-live-telehealth-over-quic/)**
 
@@ -39,13 +46,14 @@ Code Pause, Inc. develops advanced communications, software, and data technologi
 
 | | Product | What it is |
 | --- | --- | --- |
-| 🩺 | **[OutsideINsights](https://outsideinsights.health)** | Contextual remote patient monitoring and telehealth. Connected-device data and caregiver observations delivered into the EHR care teams already use: Epic, Oracle Health, and athenahealth. |
-| 🎙️ | **[Voxi.Live](https://voxi.live)** | Browser-based live communications and entertainment platform built on Media over QUIC, with real-time avatars, voice processing, and interactive audience features. *Be live. Be anything.* |
-| 📡 | **Telehealth over QUIC (ToQ)** | Real-time telehealth over Media over QUIC: live visits, multiplexed medical telemetry, adaptive resolution from low-bandwidth audio to HD video, and post-quantum end-to-end encryption. |
-| 🛰️ | **OUTsights Gateway** | Tri-band connected edge hardware (Wi-Fi, cellular, satellite failover) with delay-tolerant networking for homes and field sites beyond ordinary coverage. |
-| 🔐 | **Century Service Protocol** | The secure, multi-tenant transport and storage foundation beneath everything: database-enforced tenant isolation, append-only audit ledger, and encrypted PHI at rest, in flight, and at ingest. |
+| <img src="https://api.iconify.design/lucide/stethoscope.svg?color=%236b7280" width="48" height="48" alt="Health"> | **[OutsideINsights](https://outsideinsights.health)** | Contextual remote patient monitoring and telehealth. Connected-device data and caregiver observations delivered into the EHR care teams already use: Epic, Oracle Health, and athenahealth. |
+| <img src="https://api.iconify.design/lucide/mic.svg?color=%236b7280" width="48" height="48" alt="Live audio"> | **[Voxi.Live](https://voxi.live)** | Browser-based live communications and entertainment platform built on Media over QUIC, with real-time avatars, voice processing, and interactive audience features. *Be live. Be anything.* |
+| <img src="https://api.iconify.design/lucide/radio-tower.svg?color=%236b7280" width="48" height="48" alt="Telehealth"> | **Telehealth over QUIC (ToQ)** | Real-time telehealth over Media over QUIC: live visits, multiplexed medical telemetry, adaptive resolution from low-bandwidth audio to HD video, and post-quantum end-to-end encryption. |
+| <img src="https://api.iconify.design/lucide/satellite.svg?color=%236b7280" width="48" height="48" alt="Edge gateway"> | **OUTsights Gateway** | Tri-band connected edge hardware (Wi-Fi, cellular, satellite failover) with delay-tolerant networking for homes and field sites beyond ordinary coverage. |
+| <img src="https://api.iconify.design/lucide/database.svg?color=%236b7280" width="48" height="48" alt="Secure data"> | **[QuackXide](https://github.com/Code-Pause-Inc/QuackXide)** | Open-source secure database and data-processing system for sensitive and protected data. Client-side encryption, HPKE-encrypted storage, analytics inside attested enclaves, and a disclosure gate so results leave as aggregates, never rows. MIT or Apache-2.0. |
+| <img src="https://api.iconify.design/lucide/shield-check.svg?color=%236b7280" width="48" height="48" alt="Secure transport"> | **Century Service Protocol** | The secure, multi-tenant transport and storage foundation beneath everything: database-enforced tenant isolation, append-only audit ledger, and encrypted PHI at rest, in flight, and at ingest. |
 
-**In development:** TREK watcher (consumer-direct off-grid health monitoring) · MarineINsights (maritime crew health and safety) · encrypted-first analytical infrastructure (analytics over data the operator cannot read).
+**In development:** TREK watcher (consumer-direct off-grid health monitoring) · MarineINsights (maritime crew health and safety).
 
 ---
 
